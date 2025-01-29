@@ -2,7 +2,7 @@
 int main()
 {
     ch ,a;
-    printf("A-Z");
+    printf("");
     scanf("%ch",a);
     return 0;
 }
