@@ -4,6 +4,6 @@ int main()
     double a,b;
     scanf("%lf%lf",&a,&b);
     printf("",a,b);
-    printf("You entered: %.2lf");
+    printf("You entered: %lf");
     return 0;
 }
