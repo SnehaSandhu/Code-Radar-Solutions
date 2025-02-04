@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    double a,b,c;
+    double a,b,c,average;
     scanf("%lf%lf%lf",&a,&b,&c);
     printf("",a,b,c);
     average=(a+b+c)/3;
