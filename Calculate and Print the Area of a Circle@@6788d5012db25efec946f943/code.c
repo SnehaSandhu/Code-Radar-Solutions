@@ -5,7 +5,7 @@ int main()
     float radius,area;
     printf("");
     scanf("%f",&radius);
-    area=pi*r*r;
+    area=pi*radius*radius;
     printf("Area: %.2f",radius,area);
     return 0;
 }
