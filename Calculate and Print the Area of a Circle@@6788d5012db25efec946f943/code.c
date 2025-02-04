@@ -1,5 +1,5 @@
 #include <stdio.h>
-define pie=3.14
+#define pie=3.14
 int main()
 {
     float r,area;
