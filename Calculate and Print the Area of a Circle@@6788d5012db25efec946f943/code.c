@@ -2,10 +2,10 @@
 #define pie 3.14
 int main()
 {
-    float radius,area;
+    float radius,area,pie;
     printf(" ");
-    scanf("%.2f",&radius);
+    scanf("%f",&radius);
     area=pie*radius*radius;
-    printf("Area: %.2f\n",radius,area);
+    printf("Area: %.2f\n",radius,area,pie);
     return 0;
 }
