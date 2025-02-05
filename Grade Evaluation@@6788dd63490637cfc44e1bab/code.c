@@ -2,7 +2,6 @@
 int main()
 {
     int, ch;
-    printf("");
     scanf("%c",&ch);
     if (ch=='A')
     {
