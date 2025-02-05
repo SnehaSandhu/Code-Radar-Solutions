@@ -24,7 +24,7 @@ int main()
     case 11:
         printf("30");
         break;
-    default
+    default:
         printf("Invalid");
     }
     return 0;
