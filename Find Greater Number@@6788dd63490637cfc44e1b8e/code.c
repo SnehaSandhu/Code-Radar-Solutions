@@ -10,7 +10,7 @@ int main()
     }
     else
     {
-        printf("not exist");
+        printf("");
     }
     return 0;
 }
