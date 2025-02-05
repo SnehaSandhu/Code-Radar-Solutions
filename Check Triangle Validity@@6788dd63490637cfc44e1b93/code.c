@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.in>
 int main()
 {
     int a,b,c;
