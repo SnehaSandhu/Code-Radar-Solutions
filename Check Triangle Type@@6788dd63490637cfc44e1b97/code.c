@@ -12,7 +12,7 @@ int main()
     {
         printf("Isosceles");
     }
-    else if (a<b+c)
+    else if (a+b>c)
     {
         printf("Scalene");
     }
