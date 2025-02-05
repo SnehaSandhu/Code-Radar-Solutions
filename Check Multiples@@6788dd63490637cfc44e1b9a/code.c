@@ -4,13 +4,13 @@ int main()
     int a,b;
     printf("");
     scanf("%d%d",&a,&b);
-    if (a%b=0)
+    if (a%b==0)
     {
-        printf("Yes")
+        printf("Yes");
     }
     else
     {
-        printf("No")
+        printf("No");
     }
     return 0;
 }
