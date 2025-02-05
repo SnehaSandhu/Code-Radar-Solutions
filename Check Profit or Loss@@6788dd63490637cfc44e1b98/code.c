@@ -4,7 +4,7 @@ int main()
     int cost_price,selling_price;
     printf("");
     scanf("%d%d"&cost_price,&selling_price);
-    if (cost_price>selling_price)
+    if (cost_price<selling_price)
     {
         printf("Profit");
     }
