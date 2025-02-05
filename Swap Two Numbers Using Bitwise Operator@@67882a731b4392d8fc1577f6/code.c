@@ -4,8 +4,8 @@ int main()
     int a,b;
     printf("");
     scanf("%d%d",&a,&b);
-    x=x^y;
-    y=x^y;
-    printf("%d%d",x,y);
+    a=a^b;
+    b=a^b;
+    printf("%d%d",a,b);
     return 0;
 }
