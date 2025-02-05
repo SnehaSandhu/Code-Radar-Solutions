@@ -6,7 +6,7 @@ int main()
     scanf("%c",&ch);
     if (ch=='A')
     {
-        printf(Excellent);
+        printf("Excellent");
     }
     else if (ch=='B')
     {
