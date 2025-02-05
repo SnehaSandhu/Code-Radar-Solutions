@@ -4,7 +4,7 @@ int main()
     char grade;
     printf("");
     scanf("%d",&grade);
-    if (grade>=90:)
+    if (grade>=90)
     {
         printf("A");
     }
