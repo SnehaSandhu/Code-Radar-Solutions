@@ -4,7 +4,7 @@ int main()
 {
     char ch;
     char *vowels=aeiouAEIOU*;
-    scanf("%s",&ch);
+    scanf("%c",&ch);
     if ((ch>='a' &&ch <='z') ||(ch>='A' && ch<='Z') )
     {
         if(strchr(vowels,ch)!=NULL){
