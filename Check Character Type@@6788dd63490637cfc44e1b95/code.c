@@ -3,7 +3,7 @@
 int main()
 {
     char ch;
-    char *vowels="aeiouAEIOU"*;
+    char *vowels="aeiouAEIOU";
     scanf("%c",&ch);
     if ((ch>='a' &&ch <='z') ||(ch>='A' && ch<='Z') )
     {
