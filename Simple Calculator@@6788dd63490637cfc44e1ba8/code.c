@@ -22,6 +22,10 @@ int main()
     {
         printf("%d",a/b);
     }
+        else
+        {
+            printf("Error");
+        }
     else
     {
         printf("Error");
