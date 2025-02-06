@@ -2,10 +2,10 @@
 #include<string.h>
 int main()
 {
-    char ch1,ch2;
+    char str[100],str2[100];
     printf("");
-    scanf("%s%s",&ch1,&ch2);
-    printf("You entetred: %s and %s",ch1,ch2);
+    scanf("%s%s",&str1,&str2);
+    printf("You entetred: %s and %s",str1,str2);
     return 0;
 
   
