@@ -1,22 +1,27 @@
 #include <stdio.h>
-
-void fibonacci(int n) {
-    int t1 = 0, t2 = 1, nextTerm;
-    printf("Fibonacci Series: %d, %d", t1, t2);
+int fibonacci(int num); 
+int main()
+{
+    int num, i;
+    printf("");
+    scanf("%d", &num);
     
-    for (int i = 3; i <= n; i++) {
-        nextTerm = t1 + t2;
-        printf(", %d", nextTerm);
-        t1 = t2;
-        t2 = nextTerm;
-    }
-    printf("\n");
+    printf("");
+    for (i = 0; i < num; i++) 
+        printf("%d ", fibonacci(i)); 
+
+    printf("\n"); 
+    return 0;
 }
 
-int main() {
-    int n;
-    printf("Enter the number of terms: ");
-    scanf("%d", &n);
-    fibonacci(n);
-    return 0;
+int fibonacci(int num)
+{
+    if (num == 0)
+        return 0;
+    else if (num == 1)
+        return 1;
+    else
+        return fibonacci(num - 1) + fibonacci(num - 2);
+}
+
 }
