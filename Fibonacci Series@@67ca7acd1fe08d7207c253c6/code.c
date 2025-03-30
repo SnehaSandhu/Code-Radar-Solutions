@@ -1,26 +1,23 @@
 #include <stdio.h>
-int fibonacci(int num); 
-int main()
-{
-    int num, i;
-    printf("");
-    scanf("%d", &num);
-    
-    printf("");
-    for (i = 0; i < num; i++) 
-        printf("%d ", fibonacci(i)); 
 
+void fibonacci(int N) {
+    int a = 0, b = 1, next;
+    
+    for (int i = 0; i < N; i++) {
+        printf("%d", a);
+        if (i < N - 1) {
+            printf(" "); 
+        }
+        next = a + b;
+        a = b;
+        b = next;
+    }
     printf("\n"); 
+}
+
+int main() {
+    int N;
+    scanf("%d", &N);
+    fibonacci(N); 
     return 0;
 }
-
-int fibonacci(int num)
-{
-    if (num == 0)
-        return 0;
-    else if (num == 1)
-        return 1;
-    else
-        return fibonacci(num - 1) + fibonacci(num - 2);
-}
-
